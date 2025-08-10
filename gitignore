@@ -1,0 +1,55 @@
+
+# OS関連
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python / GAS / Nodeのキャッシュ系
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.out
+
+# VSCode や JetBrains 系IDE設定
+.vscode/
+.idea/
+
+# ビルド／一時出力ファイル
+*.zip
+*.tar.gz
+*.bak
+*.tmp
+*.swp
+
+# ノートや出力テンプレ
+*.ipynb_checkpoints
+*.checkpoint
+*_output.md
+*_output.json
+
+# 個別のAPIキー・環境ファイル
+.env
+.secrets
+credentials.json
+token.json
+
+# Drive・Obsidianなどとの同期フォルダ
+drive_sync/
+.obsidian/
+.obsidian-workspace
+
+# Gemini/Copilot一時ファイル（生成済みでもGit管理しないなら）
+Gemini_*.md
+Copilot_*.md
+*_autogen.*
+
+# Canvas出力ログや週次ログの一時保存
+log-raw/
+canvas-raw/
+*.tsv
+*.csv
+
+# その他機密/非公開ファイル
+private_notes/
+diary_logs/
